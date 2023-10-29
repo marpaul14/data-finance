@@ -5,6 +5,7 @@ import {
   FaTwitterSquare,
   FaDribbbleSquare,
 } from "react-icons/fa";
+import FooterDetails from "./FooterDetails";
 
 function Footer() {
   return (
@@ -24,6 +25,7 @@ function Footer() {
           <FaDribbbleSquare size={30} />
         </div>
       </div>
+      <FooterDetails />
     </div>
   );
 }
